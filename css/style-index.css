@@ -1,4 +1,4 @@
-/* Section */
+/* Section Home */
 section#home {
   position: relative;
   text-align: center;
@@ -59,4 +59,10 @@ section#home .text-center p#company-slogan {
   section#home .text-center p#company-slogan {
     font-size: 1.5rem;
   }
+}
+
+/*Section Pillars*/
+.pillars i {
+  font-size: 10rem;
+  color: #005E9D;
 }

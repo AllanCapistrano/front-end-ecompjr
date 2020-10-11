@@ -1,3 +1,10 @@
+.img-dir .col-lg-4, .img-dir .col-md-4,
+.img-consul .col-lg-4, .img-consul .col-md-4{
+  width: 330px;
+  height: 330px;
+  margin-bottom: 40px;
+}
+
 .team h1{
   font-size: 40pt;
   text-transform: uppercase;
@@ -13,23 +20,22 @@
 
 .img-consul img:nth-child(-n + 9),
 .img-dir img:nth-child(-n + 6) {
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 
-.col-lg-4 img,
-.img-prof img,
-.col-md-4 img{
+.col-lg-4 .hvr-radial-out img,
+.img-prof .hvr-radial-out img,
+.col-md-4 .hvr-radial-out img{
   border: 16px solid #0070BB;
   border-radius: 50%;
 }
 
-.col-lg-4 img:hover,
-.img-prof img:hover,
-.col-md-4 img:hover{
+.col-lg-4 .hvr-radial-out img:hover,
+.img-prof .hvr-radial-out img:hover,
+.col-md-4 .hvr-radial-out img:hover{
   border: 16px solid #008CEA;
-  /* opacity: 0;
-  transition: opacity 0.1s 0.1s; */
-  cursor: pointer;
+  /* opacity: 0; */
+  transition: opacity 0.1s 0.05s;
 }
 
 /* Hover para exibir informações dos integrantes da equipe (não finalizado) */
@@ -46,6 +52,7 @@
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
+  border-radius: 50%;
 }
 .hvr-radial-out:before {
   content: "";
@@ -55,7 +62,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background-color: #0070BB;
   border-radius: 100%;
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -67,9 +74,79 @@
   transition-timing-function: ease-out;
 }
 .hvr-radial-out:hover, .hvr-radial-out:focus, .hvr-radial-out:active {
-  color: white;
+  color: #fff;
 }
 .hvr-radial-out:hover:before, .hvr-radial-out:focus:before, .hvr-radial-out:active:before {
   -webkit-transform: scale(2);
   transform: scale(2);
 }
+
+.hvr-radial-out span p{
+  position:absolute;
+  top:50%;
+  left:50%;
+  opacity: 0;
+  width: 100%;
+  transform:translate(-50%,-50%)
+}
+
+.hvr-radial-out span div{
+  position:absolute;
+  top:50%;
+  left:50%;
+  opacity: 0;
+  transform:translate(-50%,-50%)
+}
+
+.hvr-radial-out span div{
+  margin-right: 10px;
+}
+
+.hvr-radial-out:hover span p{
+  opacity: 1;
+  font-size: 16pt;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.hvr-radial-out:hover span div{
+  opacity: 1;
+  font-size: 16pt;
+  margin-top: 80px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.icons {
+  color: #fff;
+  font-weight: lighter;
+  margin: 0;
+  padding: 0;
+}
+
+.icons a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.icons a:last-child {
+  margin-left: 20px;
+}
+
+.icons a i {
+  font-size: 50px;
+  margin-left: 0px;
+  transition: 0.1s;
+}
+
+.icons a i:hover {
+  font-size: 55px;
+}
+

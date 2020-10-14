@@ -13,6 +13,7 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/style-contact.css">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
@@ -57,6 +58,104 @@
       </ul>
     </div>
   </nav>
+
+  <!-- Contact -->
+  <div class="contact-section">
+    <div class="container">
+      <div class="row  align-items-center justify-content-between botao">
+        <a class="" href="" id="name">
+          <span>ENTRE EM CONTATO</span>
+        </a>
+        <a class="link-orçamento" href="">
+          <input id="orçamento" type="submit" value="Orçamento rápido para sites intitucionais">
+        </a> 
+      </div>
+      
+      <div class="row  align-items-center justify-content-center inform">
+        
+        <span><br><br>Deseja saber mais sobre nossos produtos e serviços?
+          Gostaria de fazer o orçamento de algum projeto?<br>
+          Acredita que uma parceria com a EcompJr seria uma boa ideia?
+          Para isso, e qualquer outra dúvida entre em contato!</span>
+          <!-- Divider -->
+      </div>
+      <hr class="solid">
+      <div class="row  align-items-center justify-content-around">
+        <div class="col-sm-6 col-md-5 col-lg-4 col-xl-4 contact-col">
+
+          <div class="row  align-items-center">
+
+          <div class="col-sm-12">
+          <a href="" target="_blank" id="name">
+            <i class="fas fa-map-marked-alt"></i>
+            <span>ENDEREÇO</span>
+            <p>UEFS - Avenida Transnordestina,<br> 
+              s/nº - Módulo 5, MP 51A Novo<br> 
+              Horizonte, Feira de Santana - BA,<br> 
+              44036-900
+            </p>
+          </a></div>
+
+          <div class="col-sm-12">
+          <a href="" target="_blank" id="name">
+            <i class="fab fa-whatsapp"></i>
+            <span>WHATSAPP</span>
+            <p>(75) 98897-6806<br> 
+            </p>
+          </a></div>
+
+          <div class="col-sm-12">
+          <a href="" target="_blank" id="name">
+            <i class="fas fa-envelope"></i>
+            <span>E-MAIL</span>
+            <p>ecompjr@uefs.br<br> 
+            </p>
+          </a></div>
+
+          <div class="col-sm-12">
+          <a href="" target="_blank" id="name">
+            <i class="far fa-clock"></i>
+            <span>HORÁRIOS</span>
+            <p>Segunda à Sexta - <br>
+              das 7:30 às 17:30<br> 
+            </p>
+          </a></div>
+        </div>
+        </div>
+        <div class="col-sm-6 col-md-5 col-lg-4 col-xl-3 contact-col inputs">
+          
+          <form>
+            <a href="" target="_blank" id="nameMsg">
+              <span>ENVIE-NOS UMA MENSAGEM</span>
+            </a>
+              <input type="text" class="" id="exampleFormControlInput1" placeholder="Nome">
+           
+              <input type="text" class="" id="exampleFormControlInput1" placeholder="E-mail">
+          
+              <input type="text" class="" id="exampleFormControlInput1" placeholder="Assunto">
+        
+              <textarea class="field" id="exampleFormControlTextarea1" rows="6" placeholder="Escreva sua mensagem"></textarea>
+
+              <input type="submit" value="Enviar Mensagem">
+         
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img id="imgMaps" src="../assets/google-maps.png">
+
+  <script>
+  function myMap() {
+  var mapProp= {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+  };
+  var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+  }
+  </script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 
   <!-- Footer -->
   <footer class="footer-section">

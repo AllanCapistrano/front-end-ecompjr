@@ -1,0 +1,39 @@
+.col-title, .container-portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-title h1 {
+  color: #005E9D;
+  font-weight: bold;
+  margin-top: 7rem;
+  margin-bottom: 1.5rem;
+}
+
+.col-title .page-subtitle {
+  color: #757781;
+  margin-bottom: 2.5rem;
+}
+
+.container-portfolio .section-title {
+  color: #173C88;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+@media(max-width: 659px) {
+  .col-title h1 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+  }
+
+  .col-title .page-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .container-portfolio .section-title {
+    font-size: 1.4rem;
+  }
+}

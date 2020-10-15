@@ -56,6 +56,11 @@ input[type=text], .field{
     border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
+    transition: 0.3s;
+  }
+
+  input[type=submit]:hover {
+    background-color: rgb(221, 221, 221);
   }
 
   .botao{
@@ -72,6 +77,11 @@ input[type=text], .field{
     border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
+    transition: 0.3s;
+  }
+
+  #orçamento:hover {
+    background-color: #005288;
   }
 
   .botao a#name{

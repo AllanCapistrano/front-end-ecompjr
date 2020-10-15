@@ -23,6 +23,17 @@
   margin-bottom: 1.5rem;
 }
 
+.more-info {
+  color :#173C88;
+  font-weight: 500;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.desktop .more-info {
+  margin-bottom: 1.5rem;
+}
+
 @media(max-width: 659px) {
   .col-title h1 {
     font-size: 1.7rem;
@@ -35,5 +46,17 @@
 
   .container-portfolio .section-title {
     font-size: 1.4rem;
+  }
+}
+
+@media(max-width: 391px) {
+  .more-info {
+    font-size: 0.8rem;
+  }
+}
+
+@media(max-width: 260px) {
+  .more-info {
+    font-size: 0.6rem;
   }
 }

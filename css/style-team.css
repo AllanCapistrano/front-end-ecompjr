@@ -150,3 +150,29 @@
   font-size: 55px;
 }
 
+.iconsP {
+  color: #fff;
+  font-weight: lighter;
+  margin: 0;
+  padding: 0;
+}
+
+.iconsP a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.iconsP a:last-child {
+  margin-left: 0px;
+}
+
+.iconsP a i {
+  font-size: 50px;
+  margin-left: 0px;
+  transition: 0.1s;
+}
+
+.iconsP a i:hover {
+  font-size: 55px;
+}
+

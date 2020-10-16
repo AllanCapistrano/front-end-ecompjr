@@ -1,0 +1,187 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.section-services {
+  color: #ffff;
+  background-color: #0070BB;
+  width: 100%;
+}
+
+.row-services {
+  margin-top: 2rem;
+  height: 320px;
+}
+
+h1 {
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+}
+
+.col-description h1, .col-description p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-description p {
+  font-size: 1.6rem;
+}
+
+.about-services {
+  font-size: 1.2rem;
+}
+
+.col-icon p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-icon p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.row-info {
+  height: 160px;
+}
+
+.col-icon i {
+  font-size: 5rem;
+  transition: 0.3s;
+}
+
+.col-icon i:hover {
+  font-size: 5.5rem;
+}
+
+.section-site, 
+.section-web,
+.section-ecommerce {
+  background-color: #005E9D;
+}
+
+.section-mobile,
+.section-local {
+  background-color: #0070BB;
+}
+
+.section-ecommerce {
+  margin-bottom: 2rem;
+}
+
+.row-departs {
+  color: #fff;
+  height: 360px;
+}
+
+.col-departs p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.col-departs i {
+  font-size: 8rem;
+  margin-bottom: 1rem;
+}
+
+.col-departs p {
+  font-size: 1.6rem;
+}
+
+.col-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-show-more {
+  background-color: #005E9D;
+}
+
+.btn-show-more-alt {
+  background-color: #0070BB;
+}
+
+.btn-show-more, 
+.btn-show-more-alt {
+  width: 50%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: none;
+  outline: 0;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.btn-show-more:focus, 
+.btn-show-more-alt:focus {
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.btn-show-more:hover{
+  background-color: #fff;
+  color: #005E9D;
+}
+
+.btn-show-more-alt:hover {
+  background-color: #fff;
+  color: #0070BB;
+}
+
+@media(max-width: 856px) {
+  .row-departs {
+    height: 200px;
+  }
+
+  .col-description p {
+    font-size: 1rem;
+  }
+
+  .col-icon i {
+    font-size: 3rem;
+    transition: 0.3s;
+  }
+  
+  .col-icon i:hover {
+    font-size: 3.5rem;
+  }
+
+  .col-departs i {
+    font-size: 4rem;
+  }
+
+  .col-icon p {
+    font-size: .8rem;
+  }
+  
+  .col-departs p {
+    font-size: 1rem;
+  }
+
+}
+
+@media(max-width: 767px) {
+  .row-services {
+    height: 500px;
+  }
+
+  .row-departs {
+    height: 250px;
+  }
+}
+
+@media(max-width: 576px) {
+  .row-departs {
+    height: 280px;
+  }
+}

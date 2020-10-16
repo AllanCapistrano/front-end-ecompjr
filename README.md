@@ -2,7 +2,7 @@
 
 <h3 align="center">EcompJr.</h3>
 <p align="center">
-  <img src="https://i.imgur.com/7L676Sl.png" alt="Site EcompJr." width="800px">
+  <img src="https://i.imgur.com/pLt2XCk.png" alt="Site EcompJr." width="800px">
 </p>
 
 ------------

@@ -30,12 +30,26 @@
   border-radius: 50%;
 }
 
-.col-lg-4 .hvr-radial-out img:hover,
-.img-prof .hvr-radial-out img:hover,
-.col-md-4 .hvr-radial-out img:hover{
-  border: 16px solid #008CEA;
-  /* opacity: 0; */
-  transition: opacity 0.1s 0.05s;
+.overlay {
+  background-color: #008CBA;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s;
+}
+
+.container-content:hover .overlay {
+  opacity: 1;
+}
+
+p {
+  color: #fff;
 }
 
 /* Hover para exibir informações dos integrantes da equipe (não finalizado) */
@@ -44,16 +58,15 @@
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  /* box-shadow: 0 0 1px rgba(0, 0, 0, 0); */
   position: relative;
   overflow: hidden;
-  /* background: #e1e1e1; */
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   border-radius: 50%;
 }
+
 .hvr-radial-out:before {
   content: "";
   position: absolute;
@@ -73,9 +86,11 @@
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
+
 .hvr-radial-out:hover, .hvr-radial-out:focus, .hvr-radial-out:active {
   color: #fff;
 }
+
 .hvr-radial-out:hover:before, .hvr-radial-out:focus:before, .hvr-radial-out:active:before {
   -webkit-transform: scale(2);
   transform: scale(2);

@@ -43,6 +43,12 @@ section#home .text-center p#company-slogan {
   }
 }
 
+@media(max-width: 975px) {
+  section#home .text-center p#company-name {
+    margin-top: 8rem;
+  }
+}
+
 @media(max-width: 815px) {
   section#home .text-center p#company-name {
     font-size: 2.5rem;
@@ -62,6 +68,12 @@ section#home .text-center p#company-slogan {
 
   section#home .text-center p#company-slogan {
     font-size: 1.5rem;
+  }
+}
+
+@media(max-width: 470px) {
+  section#home .text-center p#company-name {
+    margin-top: 10rem;
   }
 }
 

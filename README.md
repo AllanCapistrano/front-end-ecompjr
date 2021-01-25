@@ -11,7 +11,7 @@
 **Projeto final front end do processo trainee 2020 da EcompJr.**
 
 Aplicação web destinada ao processo trainee da EcompJr como forma de avaliar o desenvolvimento pessoal em programação web para a efetivação na empresa.
-O projeto trata-se do desenvolvimento de uma nova página web para a EcompJr , com o objetivo de exercitar e por em prática os conceitos aprendidos durante os treinamentos de front-end ministrados por [Daniel Santa](https://github.com/DanielSRS).
+O projeto trata-se do desenvolvimento de uma nova página web para a EcompJr , com o objetivo de exercitar e por em prática os conceitos aprendidos durante os treinamentos de front end ministrados por [Daniel Santa](https://github.com/DanielSRS).
 
 **🔗 Tecnologias utilizadas:**
 - HTML
